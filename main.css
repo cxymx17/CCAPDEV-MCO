@@ -16,7 +16,7 @@ body {
   height: 100vh;
   font-family: 'Poppins', sans-serif;
   padding-top: 5%;
-  background-image: url(bg2.jpg);
+  background-image: url(img/bg2.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -320,7 +320,7 @@ input {
 }
 
 .overlay {
-  background-image: url('image2.jpg');
+  background-image: url('img/image2.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 0 0;
