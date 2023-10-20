@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="icon" type="png" href="favicon.png">
+  <link rel="stylesheet" href="editprofile.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Edit Profile</title>
+</head>
+
+<body>
+    <nav>
+        <div class="title">FlavorFinds</div>
+        <!--TODO: profile dropdown-->
+        <a href="login.html">Login/Register</a>
+        <a href="navbartoreview.html">Profile</a>
+        <a href="navbartoreview.html">Reviews</a>
+        <a href="home.html">Home</a>
+        <div class="search-container">
+          <input type="text" id="search" placeholder="Search">
+          <button type="button"><i class="fas fa-search"></i></button>
+        </div>
+    </nav>
+
+ 
+       
+
+    <div class="card">
+        <form action="Profile.html" enctype="multipart/form-data">
+            <h1 style="color: #535a3b; font-family: 'Passeio Test';">EDIT PROFILE</h1>
+            <div class="avatar">
+                <label for="avatar">
+                    <img id="avatar-preview" src="avatar.jpg" alt="Avatar">
+                    <input type="file" id="avatar" accept="image/*" onchange="updatePreview(event)">
+                  </label>
+              </div>
+            <input type="text" placeholder="Full Name">
+            <input type="text" placeholder="Username">
+            <input type="password" placeholder="Password">
+            <textarea placeholder="Short Description (optional)" rows="4" cols="50"></textarea>
+            <button>SUBMIT</button>
+          </form>
+
+    </div>
+
+
+      
+
+</body>

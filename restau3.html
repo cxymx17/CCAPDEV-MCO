@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="icon" type="png" href="favicon.png">
+  <link rel="stylesheet" href="restauReviews.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Reviews</title>
+</head>
+</style>
+<body>
+
+    <nav>
+        <div class="title">FlavorFinds</div>
+        <!--TODO: profile dropdown-->
+        <a href="login.html">Login/Register</a>
+        <a href="Profile.html">Profile</a>
+        <a href="navbartoreview.html">Reviews</a>
+        <a href="home.html">Home</a>
+        <div class="search-container">
+        <input type="text" id="search" placeholder="Search">
+        <button type="button"><i class="fas fa-search"></i></button>
+        </div>
+    </nav>
+
+    <div class="categoriesContainer">
+        <div class="Categories">
+            <p><a href="restau1.html">Din Tai Fung</a></p>
+            <p><a href="restau2.html">The Aristocrat</a></p>
+            <p><a href="restau3.html">Bistro Ravioli</a></p>
+            <p><a href="restau4.html">Lugang Cafe</a></p>
+            <p><a href="restau5.html">Italianni’s</a></p>
+        </div>
+    </div>
+
+
+    
+    <div class="outerContainer">
+        <div class="restaurantInfo">
+            <div class="restaurantPic">
+                <img src="restauPics/Bistro_Ravioli.jpeg">
+            </div>
+            
+            <div class="restaurantDescription">
+                <h1>Bistro Ravioli</h1>
+                <p>Bistro Ravioli is a group of authentic Italian restaurants that bring Italy closer to the Philippines by way of traditional Italian cuisine like fresh pasta, brick oven pizza, and ravioli. Every dish uses only the freshest ingredients to give honor to traditional Italian cooking that we love so much.
+                </p>
+            </div>
+        </div>
+  
+        <div class="mainContainer">
+            <div class="reviewsContainer">
+                <div class="card-column">
+                    <div class="card">
+                        <div class="info">
+                            <img src="avatar.jpg">
+                            <p>@secretlifeofkynaa</p>
+                        </div>
+                        <div class="description">
+                            <div class="rating">
+                                <p>Rating: recommended</p>
+                            </div>
+                            <div class="title">
+                                <p>Our Favorite!</p>
+                            </div>
+                            <div class="body">
+                                <p>My boyfriend said that Bistro Ravioli is one of his faves. He ordered for us. My first bite? Oh em gee. It is so good that I can't get over it. Every bite, I keep on saying how good it was. This branch is small. Just a few tables but you'll see that it's always packed. I brought a lot of friends at Ravioli and all of them loove loove looved it! This restaurant is a must try.
+                                </p>
+                            </div>
+                            <div class="establishmentProfile">
+                                <img src="restauPics/Bistro1.jpeg">
+                            </div>
+                        </div>
+                        <div class="hepfulUnhelpful">
+                            <div class="helpful">Helpful: 80</div>
+                            <div class="unhelpful">Unhelpful: 0</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="submitReviewsContainer">
+                <div id="review">Submit a Review</div>
+    
+                <textarea name="Title" id="titleTextArea" cols="30" rows="10" placeholder="Title..."></textarea>
+                <textarea name="Body" id="bodyTextArea" cols="30" rows="10" placeholder="Body..."></textarea>
+                
+                <div id="recommendation">
+                    <input type="radio" id="recommend" name="recommendation" value="recommend"> Recommend
+                    <input type="radio" id="notRecommend" name="recommendation" value="notRecommend"> Not Recommended
+                </div>
+                <div id="fileUpload">
+                    <label for="file">Upload Image/Video:</label>
+                    <input type="file" id="file" name="file" accept="image/*, video/*">
+                </div>
+                <div id="send">
+                    <button class="button">Post</button>
+                </div>
+                
+            </div>
+
+
+        </div>
+    </div>
+        
+
+
+
+
+ 
+</body>
+</html>

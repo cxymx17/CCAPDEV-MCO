@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="icon" type="png" href="favicon.png">
+  <link rel="stylesheet" href="restauReviews.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Reviews</title>
+</head>
+</style>
+<body>
+
+    <nav>
+        <div class="title">FlavorFinds</div>
+        <!--TODO: profile dropdown-->
+        <a href="login.html">Login/Register</a>
+        <a href="Profile.html">Profile</a>
+        <a href="navbartoreview.html">Reviews</a>
+        <a href="home.html">Home</a>
+        <div class="search-container">
+        <input type="text" id="search" placeholder="Search">
+        <button type="button"><i class="fas fa-search"></i></button>
+        </div>
+    </nav>
+
+    <div class="categoriesContainer">
+        <div class="Categories">
+            <p><a href="restau1.html">Din Tai Fung</a></p>
+            <p><a href="restau2.html">The Aristocrat</a></p>
+            <p><a href="restau3.html">Bistro Ravioli</a></p>
+            <p><a href="restau4.html">Lugang Cafe</a></p>
+            <p><a href="restau5.html">Italianni’s</a></p>
+        </div>
+    </div>
+
+
+    
+    <div class="outerContainer">
+        <div class="restaurantInfo">
+            <div class="restaurantPic">
+                <img src="restauPics/Italiannis.jpeg">
+            </div>
+            
+            <div class="restaurantDescription">
+                <h1>Italianni’s Restaurant</h1>
+                <p>Italianni’s provides a diverse selection of Italian and American cuisine, including entrees for breakfast, seafood, spaghetti, flatbread, antipasto, a variety of meat entrees, fantastic drinks, cocktails, and a lot more. You are provided with the finest Italian delicacies; each prepared using authentic Italian recipes. Every meal is prepared in the time-honored manner of classic Italian cooking, utilizing only ingredients of the highest possible standard.</p>
+            </div>
+        </div>
+  
+        <div class="mainContainer">
+            <div class="reviewsContainer">
+                <div class="card-column">
+                    <div class="card">
+                        <div class="info">
+                            <img src="avatar.jpg">
+                            <p>@simple_cymb</p>
+                        </div>
+                        <div class="description">
+                            <div class="rating">
+                                <p>Rating: not recommended</p>
+                            </div>
+                            <div class="title">
+                                <p>Bad experience</p>                                
+                            </div>
+                            <div class="body">
+                                <p>BAD customer service. Their staff doesn't uderstand each other. Their server Eve reserved us a table but their receptionist gave the table to other customers. The Manager just said it's a miscommunication between their staff but did not do anything.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="hepfulUnhelpful">
+                            <div class="helpful">Helpful: 299</div>
+                            <div class="unhelpful">Unhelpful: 5</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="submitReviewsContainer">
+                <div id="review">Submit a Review</div>
+    
+                <textarea name="Title" id="titleTextArea" cols="30" rows="10" placeholder="Title..."></textarea>
+                <textarea name="Body" id="bodyTextArea" cols="30" rows="10" placeholder="Body..."></textarea>
+                
+                <div id="recommendation">
+                    <input type="radio" id="recommend" name="recommendation" value="recommend"> Recommend
+                    <input type="radio" id="notRecommend" name="recommendation" value="notRecommend"> Not Recommended
+                </div>
+                <div id="fileUpload">
+                    <label for="file">Upload Image/Video:</label>
+                    <input type="file" id="file" name="file" accept="image/*, video/*">
+                </div>
+                <div id="send">
+                    <button class="button">Post</button>
+                </div>
+                
+            </div>
+
+        </div>
+    </div>
+        
+
+
+
+
+ 
+</body>
+</html>
