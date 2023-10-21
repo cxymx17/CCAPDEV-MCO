@@ -70,6 +70,7 @@
     background-color: #707955;
     border-radius: 30px;
   }
+  
   .search-container {
     display: flex;
     align-items: right;
@@ -139,21 +140,24 @@ p {
 .profile-name p {
   text-align: center;
   font-size: 20px;
-  margin-top: 50px;
+  margin-top: 30px;
   font-family: 'signatie';
+  margin-bottom: 10px;
 }
 
 .profile-picture img{
-  width: 200px;
-  height: 200px;
-  border-radius: 50px;
+  width: 130px;
+  height: 130px;
+  border-radius: 30px;
   margin-left: 40x;
 }
 
 .profile-description-edit {
   display: flex;
   justify-content: space-between; 
- 
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
 }
 
 .profile-description {
@@ -162,7 +166,6 @@ p {
 
 .profile-description p {
   font-style: italic;
-  margin-left: 200px;
 }
 
 #edit-button button {
@@ -172,15 +175,30 @@ p {
   border-radius: 30px;
   cursor: pointer;
   font-size: 15px;
-  padding: 8px 20px;
-  margin-left: 110px;
+  padding: 8px 20px;  
+  margin-bottom: 10px;
+  
 }
 
 #edit-button button:hover {
   background-color: #707955;
 }
 
+#logout-button button {
+  background-color: #535a3b;
+  color: white;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  font-size: 15px;
+  padding: 8px 30px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
 
+#logout-button button:hover {
+  background-color: #707955;
+}
 
 .user-review {
   display: flex;
