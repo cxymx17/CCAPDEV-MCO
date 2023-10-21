@@ -28,77 +28,77 @@ body {
 }
 
 nav{
-    position: fixed;
-    font-family: 'Poppins';
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100px;
-    padding: 10px 50px;
-    box-sizing: border-box;
-    background: rgb(185, 199, 184);
-    border-bottom: 1px solid   #eff7d3;
-    border-top: 1px solid   #eff7d3;
-    border-radius: 5px;
-    z-index: 1000;
-    margin-bottom: 20px;
-  }
-  
-  nav .title{
-    padding: 10px 10px;
-    height: 80px;
-    float: left;
-    font-size: 24px;
-    font-weight: bold;
-    color: #535a3b;
-    font-family: 'signatie';
-  }
-  
-  nav a{
-    display: flex;
-    float: right;
-    margin: 0;
-    line-height: 60px;
-    color: #535a3b;
-    padding: 10px 40px;
-    text-decoration: none;
-    font-size: 14px;
-    font-weight: bold;
-    border-radius: 30px;
-  }
-  
-  nav a:hover{
-    color: #eff7d3;
-    background-color: #707955;
-    border-radius: 30px;
-  }
+  position: fixed;
+  font-family: 'Poppins';
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  padding: 10px 50px;
+  box-sizing: border-box;
+  background: rgb(185, 199, 184);
+  border-bottom: 1px solid   #eff7d3;
+  border-top: 1px solid   #eff7d3;
+  border-radius: 5px;
+  z-index: 1000;
+  margin-bottom: 20px;
+}
 
-  .search-container {
-    display: flex;
-    align-items: right;
-    padding: 10px 100px;
-    font-family: 'Poppins';
+nav .title{
+  padding: 10px 10px;
+  height: 80px;
+  float: left;
+  font-size: 24px;
+  font-weight: bold;
+  color: #535a3b;
+  font-family: 'signatie';
+}
+
+nav a{
+  display: flex;
+  float: right;
+  margin: 0;
+  line-height: 60px;
+  color: #535a3b;
+  padding: 10px 40px;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 30px;
+}
+  
+nav a:hover{
+  color: #eff7d3;
+  background-color: #707955;
+  border-radius: 30px;
+}
+
+.search-container {
+  display: flex;
+  align-items: right;
+  padding: 10px 100px;
+  font-family: 'Poppins';
 }
 
 .search-container input {
-    padding: 10px;
-    border-radius: 30px;
-    margin-right: 5px;
-    font-family: 'Poppins';
+  padding: 10px;
+  border-radius: 30px;
+  margin-right: 5px;
+  font-family: 'Poppins';
 }
 
 .search-container button {
-    padding: 8px 25px;
-    background-color: #535a3b;
-    color: white;
-    border: none;
-    border-radius: 30px;
-    cursor: pointer;
-    font-size: 18px;
+  padding: 8px 25px;
+  background-color: #535a3b;
+  color: white;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  font-size: 18px;
 }
 
 .search-container button:hover {
-    background-color: #a7b99e;
+  background-color: #a7b99e;
 }
 
 h1 {
